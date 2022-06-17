@@ -1,8 +1,11 @@
 # Google search front-end clone
 
+![Google-search-clone](https://user-images.githubusercontent.com/48129546/174201511-1173021e-f1a7-43ab-bb09-d827950a1ed5.JPG)
+
 ## Description
 In this project, a front-end for Google Search, Google Image Search, and Google Advanced Search is desgined.
 User can type in a query to perform a Google Search who will be taken to Google's search results page.
+
 
 ## Getting Started
 ```
