@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="nav_bar"> 
+            <a href="index.html">
+            <img id="logo" src="img/logo.png"> 
+            </a>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="image.html">Images</a></li>
+                <li><a href="#"><img class="apps" src="img/grid_menu.png" alt=""grid></a></li>
+                <li class="sign_in"><a href="#">Sign in</a></li>  
+            </ul>
+        </div>
+
+        <div class="appbar">
+            <label>Advanced Search</label>
+        </div>
+        <div class="separator-line"></div>
+
+        <div class="advance-container">
+            <form action="https://www.google.com/search" method="get">
+                <div class="row">
+                    <div class="col1">
+                        <span>
+                            Find pages with...
+                        </span>
+                    </div>
+                    <div class="col2"></div>
+                    <div class="col3">
+                        <span>
+                            To do this in the search box.
+                        </span>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="first">all these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="first" name="as_q" />
+                    </div>
+                    <div class="col3">
+                        <p>Type the important words: tri-colour rat terrier</p>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="second">this exact word or phrase:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="second" name="as_epq" />
+                    </div>
+                    <div class="col3">
+                        <p>Put exact words in quotes: "rat terrier"</p>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="third">any of these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="third" name="as_oq"/>
+                    </div>
+                    <div class="col3">
+                        <p>Type OR between all the words you want: miniature OR standard</p>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="fourth">none of these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="fourth" name="as_eq" />
+                    </div>
+                    <div class="col3">
+                        <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1"></div>
+                    <div class="col2">
+                        <div class="right-align">
+                            <input type="submit" class="blue-button" value="Advanced Search">  
+                        </div>
+                    </div>
+                </div>
+                 
+            </form> 
+        </div>       
+    </body>
+
+    <footer>
+        <ul class="left_footer">  
+            <li><a href="#">Hong Kong</a></li>  
+            <li><a href="#">About</a></li>  
+        </ul>  
+           <ul class="right_footer">  
+            <li><a href="#">Privacy</a></li>  
+            <li><a href="#">Terms</a></li>  
+            <li><a href="#">Settings</a></li>  
+        </ul>
+    </footer>
+</html>
