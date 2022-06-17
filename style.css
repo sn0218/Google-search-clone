@@ -2,7 +2,7 @@ body {
     font-family: Futura, Trebuchet MS, Arial, san-serif;
     color: #d0d0d0;
   }
-  
+
 
 /*NAV BAR*/
 .nav_bar {
@@ -10,6 +10,7 @@ body {
     margin: 5px;
     padding-right: 5px;
 }
+
 
 /* Advanced Search Navbar logo */
 #logo {
@@ -46,7 +47,6 @@ li a:hover {
 }
 
 
-
 /* apps icon*/
 .apps {  
     width: 16px;  
@@ -62,7 +62,6 @@ li a:hover {
 }
 
 /* advanced search */
-
 .appbar {
     color: #d93025;
     font-size: 20px;
