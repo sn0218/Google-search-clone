@@ -1,5 +1,6 @@
 # Google search front-end clone
 
+
 ![Google-search-clone](https://user-images.githubusercontent.com/48129546/174201905-e7324a8e-775e-4ad1-8882-393d55c04c62.JPG)
 
 ## Description
