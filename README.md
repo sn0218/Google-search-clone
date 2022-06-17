@@ -10,7 +10,9 @@ User can type in a query to perform a Google Search who will be taken to Google'
 ## Getting Started
 ```
 git clone https://github.com/sn0218/Google-search-clone
+
 cd Google-search-clone
+
 start index.html
 
 ```
